@@ -9,3 +9,4 @@ const users = [
 // TODO - 1
 // Export lah variabel users
 // Gunakan export default
+export default users;
