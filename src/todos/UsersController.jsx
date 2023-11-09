@@ -6,15 +6,14 @@ import users from './users';
 
 
 const UsersController = () => {
-    const lihatHasil = async () => {
+    async () => {
         console.log(await formatUser())
-        console.log(await findByName('Erik'))
-        console.log(await filterByMajor('Desktop'))
+        console.log(await findByName())
+        console.log(await filterByMajor())
     }
     return (
         <div>
             <h3>Cek hasilnya pada konsole</h3>
-            <button onClick={lihatHasil}>Liat!!!</button>
         </div>
     );
 }
